@@ -1,0 +1,6 @@
+from locators.password_recovery_locators import PasswordRecoveryLocators
+from locators.registration_locators import RegistrationLocators
+from locators.personal_account_locators import PersonalAccountLocators
+from locators.main_functionality_locators import MainFunctionalityLocators
+from locators.order_feed_locators import OrderFeedLocators
+from locators.login_locators import LoginLocators
