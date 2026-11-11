@@ -1,0 +1,7 @@
+from page_objects.base_page import BasePage
+from page_objects.password_recovery_page import PasswordRecoveryPage
+from page_objects.registration_personal_account_pege import RegistrePage
+from page_objects.personal_account_page import PersonalAccountPage
+from page_objects.main_functionality_page import MainFunctionalityPage
+from page_objects.authorization_user_page import AuthorizationUserPage
+from page_objects.order_feed_page import OrderFeedPage

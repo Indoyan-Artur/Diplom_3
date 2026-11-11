@@ -1,0 +1,5 @@
+BASE_URL = "https://qa-stellarburgers.education-services.ru"
+URL_REGISTRATION_PAGE = "https://qa-stellarburgers.education-services.ru/register"
+URL_AUTHORIZATION_PAGE = "https://qa-stellarburgers.education-services.ru/login"
+URL_FORGOT_PASSWORD = "https://qa-stellarburgers.education-services.ru/forgot-password"
+URL_ORDER_LIST = "https://qa-stellarburgers.education-services.ru/feed"
