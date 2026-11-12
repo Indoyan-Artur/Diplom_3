@@ -22,11 +22,11 @@ class TestOrderFeed:
 
         assert order_number in page.get_feed_order_numbers(), f"Заказ {order_number} не найден в разделе в работе: {page.get_feed_order_numbers()}"
 
-        page.wait_counter_reached(page.quantity_for_today, orders_today_before + 1)
+        page.wait_orders_today_reached(orders_today_before + 1)
 
         assert page.number_of_orders_today() >= orders_today_before + 1, f"Счётчик за сегодня не вырос: было {orders_today_before}, стало {page.number_of_orders_today()}"
         
-        page.wait_counter_reached(page.order_feed_number, orders_over_time_before + 1)
+        page.wait_orders_over_time_reached(orders_over_time_before + 1)
         
         assert page.number_of_orders_over_time() >= orders_over_time_before + 1, f"Счётчик за всё время не вырос: было {orders_over_time_before}, стало {page.number_of_orders_over_time()}"
 

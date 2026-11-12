@@ -26,4 +26,4 @@ class TestPasswordRecovery:
     
         assert self.password.get_password_type() == "text", f"После клика ожидаем (type='text'), получили: {self.password.get_password_type()}"
 
-        assert self.password.is_field_focused(self.password.password_field), "После клика «показать пароль» поле должно стать активным (получить фокус)"
+        assert self.password.is_password_field_focused(), "После клика «показать пароль» поле должно стать активным (получить фокус)"
